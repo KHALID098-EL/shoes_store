@@ -1,0 +1,594 @@
+"# Shoes-website" 
+
+body {
+    margin: 0;
+}
+body .butt {
+    color: white;
+    background-color: #f56181;
+    border:none;
+    border-radius: 10px;
+
+}
+body .butt:hover {
+    background-color: #f5a0b1;
+    cursor:pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0171f9;
+    padding : 5px 20px;
+}
+.header img {
+    width: 200px ;
+}
+.header a {
+    color : white;
+    text-decoration: none;
+    padding: 8px 35px;
+    background-color: #0171f9;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+.header a:hover {
+    background-color: #65a0e9;
+}
+.header button {
+    color: white;
+    background-color: #f56181;
+    border:none;
+    border-radius: 10px;
+
+}
+.header button:hover {
+    background-color: #f5a0b1;
+    cursor:pointer;
+    transition: background-color 0.3s ease;
+    
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0171f9;
+    padding: 5px 20px ;
+    color: white;
+    /*position: absolute;*/
+    border-radius: 0 0 50px 50px;
+
+}
+
+
+.main img {
+    width: 400px;
+    border-radius: 15px;
+    
+}
+.main input {
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    height: 25px;
+}
+.main button {
+    position: absolute;
+    left: 180px;
+    color: white;
+    background-color: #f56181;
+    border:none;
+    border-radius: 10px;
+    height: 27px; ;
+}
+.main button:hover {
+    background-color: #f5a0b1;
+    cursor:pointer;
+    transition: background-color 0.3s ease;
+}
+.land {
+    width: 600px;
+}
+.shoes{
+    
+    padding: 5px 20px ;
+    margin-top: 20PX;
+}
+
+.trending{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bot{
+    color: white;
+    background-color: #f56181;
+    border:none;
+    border-radius: 10px;
+    padding: 10PX;
+}
+.bot:hover{
+     background-color: #f5a0b1;
+    cursor:pointer;
+    transition: background-color 0.3s ease;
+}
+.trending h1{
+    margin: 0;
+}
+.shoes span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #f5a0b1;
+    text-transform: uppercase;
+}
+.trending-shoes .card img{
+    width: 250px;
+}
+.trending-shoes .card .card-info{
+    padding: 0px 30px ;
+    background-color: #0171f9;
+    width: 250px;
+    border-radius: 0 0 10px;
+}
+
+.trending-shoes .card-info p,
+.trending-shoes .card-info h3 {
+    margin: 0;
+}
+.trending-shoes .card-info .heart img {
+    width: 30PX;
+}
+.trending-shoes .card-info  {
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+
+.trending-shoes{
+    display: flex;
+    gap: 20px;
+}
+.trending-shoes .card1 img{
+    width: 210PX;
+}
+.trending-shoes .card1{
+    margin-top: -31px;
+    margin-right: 90px;
+}
+.trending-shoes .card1 .card-info  {
+    background-color:#0171f9 ;
+    width: 250px;
+    Padding: 0px 30px ;
+    border-radius: 0 0 10px;
+    
+}
+
+.trending-shoes2{
+    display: flex;
+    gap: 20px;
+}
+
+.trending-shoes2 .card1 img{
+    width: 250px;
+}
+
+.trending-shoes2 .card-info p,
+.trending-shoes2 .card-info h3 {
+    margin: 0;
+}
+
+.trending-shoes2 .card-info .heart img {
+    width: 30PX;
+}
+.trending-shoes2 .card-info  {
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+
+.trending-shoes2 .card1 .card-info  {
+    background-color:#0171f9 ;
+    width: 250px;
+    Padding: 0px 30px ;
+    border-radius: 0 0 10px;
+    
+}
+
+.main-div1 {
+    margin-top: 150px;
+    margin-bottom: 50px;
+    background-color: bisque;
+    border-radius: 20px;
+    padding: 30px 20px; /* Add padding for better responsiveness */
+    width: auto;        /* Let width be determined by content */
+    display: inline-block; /* Shrink-wrap to content, or use block for full width */
+    box-sizing: border-box
+    
+}
+/* .trending-shoes2 .card1 :hover {
+    background-color: #65a0e9;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+     
+} */
+.trending-shoes2 .card-info .heart img:hover,
+.trending-shoes .card-info .heart img:hover {
+    filter: invert(18%) sepia(97%) saturate(7492%) hue-rotate(357deg) brightness(97%) contrast(119%);
+    transition: filter 0.2s;
+}
+
+/* therd section */
+
+.main-div2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(220, 228, 228);
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 10PX;
+    height: 250px;
+    
+}
+.text p {
+    width: 550px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.main-div2 .text h2 {
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+.card-imag1 img,
+.card-imag3 img {
+    width: 430px;
+    
+}
+.card-imag3 img {
+    height: 330px;
+}
+.card-imag2 img {
+    width: 440px;
+    height: 330px;
+}
+.main-div3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: rgb(220, 228, 228);
+    border-radius: 20px;
+    width: 100%;
+    
+    
+}
+
+
+.main-div4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: rgb(220, 228, 228);
+    border-radius: 20px;
+    height: 350px;
+    
+}
+
+.content4 {
+    width: 650px;
+    
+}
+
+.circle1 {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db; /* blue color */
+  border-radius: 50%; /* This makes it a circle */
+}
+.circle2 {
+  width: 100px;
+  height: 100px;
+  background-color: #749bb6; /* blue color */
+  border-radius: 50%; /* This makes it a circle */
+}
+.circle3 {
+  width: 100px;
+  height: 100px;
+  background-color: #1d5e8a; /* blue color */
+  border-radius: 50%; /* This makes it a circle */
+}
+.circles-row {
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    gap: 20px; 
+    padding-bottom: 20px;
+}
+.content4 .butt {
+    padding: 10px 20px;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="store.css">
+</head>
+<body>
+    <div class="header">
+        <div><img src="shoe_edit-pro.png" width="100PX"></div>
+        <div>
+            <a class="a" href="">Home</a>
+            <a class="a" href="">Our Store</a>
+            <a href="a">Categories</a>
+            <a class="a" href="">Contact</a>
+            <button class="butt">Sign in</button>
+        </div>
+    </div>
+    <div class="main">
+        <div class="land"><span><h2>Welcome To Our </h2></span>
+            <span><h1>Online Shoe Store</h1></span>
+            <p>"Step into style with our online shoe store, 
+            where fashion meets comfort. 
+            We offer a wide selection of footwear for men, women, and kids – from everyday essentials to the latest trends. 
+            Shop easily, enjoy fast delivery, and find the perfect pair for every occasion."</p>
+            <div>
+                <input placeholder="Start Searching">
+                <button class="butt">SEARCH</button>
+            </div>
+        </div>
+        <div><img src="aaA1.png" ></div>
+
+
+    </div>
+    <div class="shoes">
+        <span>Trending</span>
+        <div class="trending">
+            <h1>Trending Shoes</h1>
+            <button class="butt" type="button">View all</button>
+        </div>
+    </div>
+    <div class="trending-shoes">
+        <div class="card">
+            <img src="SKU_ 554724-300 Udgivelsesdato_ Juni 2020….jpg">
+            <div class="card-info">
+                <div class="card-name">
+                    <P>NIKE</P>
+                    <H3>AIR FORCE</H3>
+                </div>
+                
+                <div class="heart">
+                    <img src="black heart.png">
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="card">
+            <img src="SKU_ DV7072-300 Udgivelsesdato_ April 2022….jpg">
+            <div class="card-info">
+                <div class="card-name">
+                    <P>NIKE</P>
+                    <H3>AIR FORCE</H3>
+                </div>
+                
+                <div class="heart">
+                    <img src="black heart.png">
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="card">
+            <img src="SKU_ 553558-612 Udgivelsesdato_ 2021 Colorway_ GYM….jpg">
+            <div class="card-info">
+                <div class="card-name">
+                    <P>NIKE</P>
+                    <H3>AIR FORCE</H3>
+                </div>
+                
+                <div class="heart">
+                    <img src="black heart.png">
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="card1">
+            <img src="Supplied by a premier sneaker marketplace dealing….jpg" width="100px">
+            <div class="card-info">
+                <div class="card-name">
+                    <P>NIKE</P>
+                    <H3>AIR FORCE</H3>
+                </div>
+                
+                <div class="heart">
+                    <img src="black heart.png">
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Second div cards-->
+    <div class="main-div1">
+
+        <div class="shoes">
+        <span>Trending</span>
+        <div class="trending">
+            <h1>Most solding Shoes</h1>
+            <button class="butt" type="button">View all</button>
+        </div>
+    </div>
+
+    <div class="trending-shoes2">
+        <div class="card1">
+            <img src="SH41.png">
+            <div class="card-info">
+                <div class="card-name">
+                    <P>NIKE</P>
+                    <H3>AIR FORCE</H3>
+                </div>
+                
+                <div class="heart">
+                    <img src="black heart.png">
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="card1">
+            <img src="SH5.png">
+            <div class="card-info">
+                <div class="card-name">
+                    <P>NIKE</P>
+                    <H3>AIR FORCE</H3>
+                </div>
+                
+                <div class="heart">
+                    <img src="black heart.png">
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="card1">
+            <img src="N21.png">
+            <div class="card-info">
+                <div class="card-name">
+                    <P>NIKE</P>
+                    <H3>AIR FORCE</H3>
+                </div>
+                
+                <div class="heart">
+                    <img src="black heart.png">
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="card1">
+            <img src="air-gray1.png" width="100px">
+            <div class="card-info">
+                <div class="card-name">
+                    <P>NIKE</P>
+                    <H3>AIR FORCE</H3>
+                </div>
+                
+                <div class="heart">
+                    <img src="black heart.png">
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<!--theard div-->
+
+<div class="main-div2">
+    <div class="text">
+        <h2>2025 NIKE</h2>
+        <h2>The Best Sport Shoes</h2>
+        <p>
+            Step into performance with Nike’s latest 2025 sport shoes — combining cutting-edge design, lightweight comfort, and powerful support for every move. Perfect for running, training, and everyday style.
+        </p>
+        <div >
+            <button class="butt">Shop Now</button>
+        </div>
+    </div>
+    <div class="pic">
+        <img src="nike-s1.png" alt="">
+    </div>
+</div>
+
+<!--for the shoes pictures-->
+
+<div class="main-div3">
+    <div class="card-imag1">
+        <div class="pict1" >
+            <img src="2c39gI9N.jpg">
+        </div>
+        <div class="content1">
+            <h3>Nike Air Max 90 – Blue & White Classic</h3>
+            <p>
+                Nike Air Max 90 sneakers in blue and white, featuring breathable mesh panels, signature Air cushioning in the sole, and a classic sporty design perfect for everyday wear.
+            </p>
+
+        </div>
+        <div>
+            <button class="butt">View More</button>
+        </div>
+    </div>
+
+    <div class="card-imag2">
+        <div class="pict2" >
+            <img src="mm1.jpg">
+        </div>
+        <div class="content2">
+            <h3>Nike Air VaporMax 2025 – White Edition</h3>
+            <P>
+                Nike Air VaporMax 2025 in white with breathable mesh, full-length Air cushioning, and a sleek black Swoosh. Lightweight, comfortable, and perfect for sport or casual style.
+            </P>
+        </div>
+        <div>
+            <button class="butt">View More</button>
+        </div>
+    </div>
+
+    <div class="card-imag3">
+        <div class="pict3" >
+            <img src="Comment réussir sa Nike Air Max 1 ID personnalisée….jpg">
+        </div>
+        <div class="content3">
+            <h3>Nike Air Max 1 – Grey, Black & Red Classic</h3>
+            <p>
+                Nike Air Max 1 sneakers with a stylish mix of grey, black, white, and red. Featuring a breathable mesh upper, classic Air cushioning, and a bold rubber outsole for comfort and traction.
+            </p>
+
+        </div>
+        <div>
+            <button class="butt">View More</button>
+        </div>
+    </div>
+</div>
+<!--Nike X tiffany-->
+
+<div class="main-div4">
+    <div class="nikeX">
+        <img src="TiffanyX.png">
+    </div>
+    <div class="content4">
+        <h2>Nike X Tiffany</h2>
+        <p>
+            The Nike x Tiffany & Co. sneakers blend luxury and sport with premium black suede, iconic Tiffany Blue® accents, and signature silver details on the heel. A unique collaboration that delivers timeless style and standout craftsmanship.
+        </p>
+        <div class="circles-row">
+          <div class="circle1"></div>
+          <div class="circle2"></div>
+          <div class="circle3"></div>
+        </div>
+        <button class="butt">Buy Now</button>
+    </div>
+</div>
+    
+</body>
+</html>
